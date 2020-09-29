@@ -5,3 +5,4 @@ test-coverage
 test-reports
 local.log
 tests_output
+package-lock.json

@@ -3,7 +3,7 @@ export class RemoveFocusOutlineConfiguration {
     /**
      * The CSS injected for mouse users
      */
-    mouseCss = '.--remove-focus-outline--initialised :focus{outline:0;box-shadow:none}';
+    mouseCss = '.--remove-focus-outline--initialised :focus{outline:0 !important;box-shadow:none !important;}';
 
     /**
      * The CSS injected for keyboard users
