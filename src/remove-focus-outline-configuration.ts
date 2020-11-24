@@ -8,7 +8,7 @@ export class RemoveFocusOutlineConfiguration {
     /**
      * The CSS injected for keyboard users
      */
-    keyboardCss = ':focus{outline-style: dashed !important; outline-width: medium !important; outline-color: black !important;}';
+    keyboardCss = ':focus{outline-style: dashed !important; outline-width: medium !important; outline-color: black !important;box-shadow:none !important;}';
 
     /**
      * Mouse event to listen for
